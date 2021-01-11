@@ -1,6 +1,6 @@
-## About Laravel
+## About TerraFlops project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+TerraFlops is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -18,17 +18,20 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## Информация по установке
 - cd domains
-- git clone https://github.com/mikhalkevich/project.git
-- cd project
 - composer self-update
+- git clone https://github.com/Forzavettel/terraflops.git
+- cd localhost
 - composer install
-- создать базу с именем kit и экспортировать в нее файл kit.sql
+- создать базу с именем laravel и экспортировать в нее файл laravel.sql
 - Скопировать .env.example и превратить его в .env
-
+- php artisan key:generate
+- В файле .env подключиться к базе laravel.sql
+- php artisan serve
+- http://localhost:8000
 ## Название проекта
 Учебный проект разработанный на Laravel.
 
 ## Author
-Mikhalkevich
-mikhalkevich@ya.ru
+Karnilovich
+forzavettel@yandex.ru
 8(029)***
